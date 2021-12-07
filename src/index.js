@@ -10,9 +10,7 @@ import './css/font-awesome.min.css';
 import './css/themify-icons.css';
 import './css/flaticon.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Amplify from '@aws-amplify/core'
-import config from './aws-exports'
-Amplify.configure(config)
+
 
 ReactDOM.render(
     <Provider store={store}>
