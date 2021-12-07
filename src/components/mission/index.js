@@ -12,8 +12,8 @@ const Mission = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>What We Do?</span>
-                            <h2>Creating Opportunities for Women and Young Girls</h2>
+                            <span style={{color:"#fad2e1"}}>What We Do?</span>
+                            <h2 style={{color:"#fad2e1"}}> Creating Opportunities for Women and Young Girls</h2>
                         </div>
                     </div>
                 </div>

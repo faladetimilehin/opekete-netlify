@@ -81,7 +81,7 @@ const Footer = (props) => {
                                 <div className="contact-ft">
                                     <ul>
                                         <li><i className="fi flaticon-pin"></i>25 Oremeji Street,Lagos, Nigeria</li>
-                                        <li><i className="fi flaticon-call"></i>+2348087240516</li>
+                                        <li><i className="fi flaticon-call"></i>+234 907 084 4341</li>
                                         <li><i className="fi flaticon-envelope"></i>info@opeketefoundation.org</li>
                                     </ul>
                                 </div>

@@ -93,7 +93,7 @@
 }
 
 .wpo-blog-pg-section .entry-meta li a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-pg-section .entry-meta>li:first-child {
@@ -149,7 +149,7 @@
 }
 
 .wpo-blog-pg-section .post h3 a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-pg-section .post p {
@@ -165,7 +165,7 @@
 
 .wpo-blog-pg-section .post .read-more {
   font-weight: 600;
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-pg-section .format-standard,
@@ -200,7 +200,7 @@
 }
 
 .wpo-blog-pg-section .format-gallery .owl-controls .owl-nav [class*=owl-]:hover {
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@
   height: 0px;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 20px solid #08cc7f;
+  border-left: 20px solid #004a52;
   position: absolute;
   left: 50%;
   top: 50%;

@@ -74,7 +74,7 @@
 .volunteer-contact-form form select:focus,
 .volunteer-contact-form form textarea:focus,
 .wpo-contact-form-map form textarea:focus {
-  border-color: #08cc7f;
+  border-color: #004a52;
 }
 
 .wpo-contact-form-map form textarea,
@@ -162,9 +162,9 @@
 
 .contact-form .theme-btn,
 .volunteer-contact-form .theme-btn {
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
-  border: 1px solid #08cc7f;
+  border: 1px solid #004a52;
   outline: none;
   margin-top: 20px;
   border-radius: 40px;

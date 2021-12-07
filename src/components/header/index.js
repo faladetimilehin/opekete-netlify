@@ -27,8 +27,8 @@ const Header = () => {
                     <nav>
                         <ul>
                             {/* <li><NavLink exact activeClassName = "active" to="/home" title="">Home</NavLink></li> */}
-                            <li><NavLink activeClassName = "active" to="/about" title="">About Us</NavLink></li>
-                            <li><NavLink activeClassName = "active" to="#" title="">What We Do</NavLink>
+                            <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink></li>
+                            <li><NavLink activeClassName = "active" to="/What-We-Do" title="">What We Do</NavLink>
                                 {/* <ul>
                                     <li><Link to="/case" title="">Frequently asked questions</Link></li>
                                     <li><Link to="/case-single" title="">Apply for scholarship</Link></li>

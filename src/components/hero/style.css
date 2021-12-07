@@ -10,7 +10,7 @@
     /** slider controls **/
     /*** hero slider animation ***/
     /* background: url('../../images/slider/img-12.jpg') center center/cover no-repeat local; */
-    background-color: #f9f7ea ;
+    background-color: #ffffff ;
 }
 
 @media (max-width: 767px) {
@@ -114,7 +114,7 @@
 
 .video-text a {
     padding: 10px;
-    color: #08cc7f;
+    color: #004a52;
     font-size: 18px;
     font-weight: 600;
     text-decoration: underline;
@@ -213,7 +213,7 @@
     top: 0;
     width: 50%;
     height: 100%;
-    background: #08cc7f;
+    background: #004a52;
     content: "";
     border-top-right-radius: 3%;
     border-bottom-right-radius: 3%;
@@ -235,7 +235,7 @@
 }
 .hero-style-3  .slide-caption .btns .theme-btn{
     background: #fff;
-    color: #08cc7f;
+    color: #004a52;
 }
 
 .slide-caption {
@@ -244,7 +244,7 @@
 }
 
 .hero-style-1 .slide .slide-caption h2 span {
-    color: #08cc7f;
+    color: #004a52;
 }
 
 @media (max-width: 1199px) {
@@ -650,11 +650,11 @@ hero-style3
 
 .hero-style-2 .slide-caption h2,
 .hero-style-1 .slide-caption h2 {
-    color: #256130  ;
+    color: #074b53  ;
 }
 
 .hero-style-2 .slide .slide-caption h2 span {
-    color: #08cc7f;
+    color: #004a52;
 }
 
 .hero-style-2 .slide-caption p,
@@ -670,9 +670,9 @@ hero-style3
 }
 
 .hero-style-2 .theme-btn-s2:hover {
-    background-color: #08cc7f;
+    background-color: #004a52;
     color: #fff;
-    border: 1px solid #08cc7f;
+    border: 1px solid #004a52;
 }
 
 .hero-style-2 .left-vec {

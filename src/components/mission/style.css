@@ -4,8 +4,9 @@
     /* background: #f7fbfe; */
     /* background-color: #f9f2e6; */
     /* background-color: #fffafb; */
-    background-color: #f9f2e6 ;
+    /* background-color: #fad2e1  */
     /* background-color: #f0628a ; */
+    background-color: #074b53;
     padding-bottom: 100px;
 }
 
@@ -77,16 +78,21 @@
     width: 70px;
     height: 70px;
     line-height: 65px;
-    background: #256130 ;
+    background: #074b53 ;
     border-radius: 50%;
     margin: auto;
 }
 
 .wpo-mission-item {
     background: #fff;
-    /* background-color: #f9f7ea ; */
+    /* background-color: #fad2e1  ; */
+    /* background-color: #ffffff ; */
     box-shadow: 0px 1px 40px 0px rgba(40, 63, 116, 0.1);
     padding: 50px 30px;
+}
+
+.woo-section-title h2{
+    color: #fad2e1;
 }
 
 @media(max-width: 1199px) {

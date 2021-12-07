@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif!important;
-  background-color: #f9f7ea !important ;
+  background-color: #ffffff !important ;
   font-size: 16px;
   font-size: 1rem;
   color: #525252;
@@ -38,12 +38,12 @@ h4,
 h5,
 h6 {
   font-family: 'Rubik', sans-serif!important;
-  color: #256130 ;
+  color: #074b53 ;
   font-weight: 600!important;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: 'Rubik', sans-serif!important;
-  color: #256130 ;
+  color: #074b53 ;
   font-weight: 600!important;
 }
 
@@ -128,7 +128,7 @@ img {
 .contact-validation-active #loader i {
   font-size: 30px;
   font-size: 1.875rem;
-  color: #08cc7f;
+  color: #004a52;
   display: inline-block;
   -webkit-animation: rotating linear 2s infinite;
   animation: rotating linear 2s infinite;
@@ -390,7 +390,7 @@ img {
 }
 
 .social-links li a:hover {
-  background-color: #08cc7f;
+  background-color: #004a52;
 }
 
 
@@ -400,7 +400,7 @@ img {
   right: -20px;
   width: 35px;
   height: 35px;
-  background: #08cc7f;
+  background: #004a52;
   border-radius: 50%;
 }
 
@@ -415,5 +415,5 @@ img {
 }
 
 .cBtnTheme {
-  background: #08cc7f;
+  background: #004a52;
 }

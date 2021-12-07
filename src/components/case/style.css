@@ -17,7 +17,7 @@
   position: relative;
   animation: animate-positive 4s;
   width: 65%;
-  background: #08cc7f;
+  background: #004a52;
   height: 5px;
 }
 
@@ -38,10 +38,10 @@
 .progress .progress-value {
   width: 53px;
   height: 30px;
-  background-color: #08cc7f;
+  background-color: #004a52;
   text-align: center;
   line-height: 22px;
-  border: 1px solid #08cc7f;
+  border: 1px solid #004a52;
   left: 90%;
   position: relative;
   color: #000;
@@ -55,7 +55,7 @@
 
 .progress .progress-value:before {
   content: "";
-  border-color: #08cc7f transparent transparent transparent;
+  border-color: #004a52 transparent transparent transparent;
   border-style: solid;
   border-width: 5px;
   width: 0;
@@ -162,7 +162,7 @@
   text-align: center;
   background: transparent;
   transition: all .3s;
-  border: 1px solid #08cc7f;
+  border: 1px solid #004a52;
 
 }
 
@@ -173,11 +173,11 @@
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] {
   background: transparent;
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-  background: #08cc7f;
+  background: #004a52;
 }
 
 @media(max-width: 860px) {

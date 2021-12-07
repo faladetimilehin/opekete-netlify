@@ -1,7 +1,7 @@
 /* ===================== HEADER ======================*/
 
 /* .header-content{
-	background-color: #08cc7f;	
+	background-color: #004a52;	
 } */
 
 .logo {
@@ -21,12 +21,12 @@
     box-shadow: 0px 5px 14.25px 0.75px rgba(12, 105, 184, 0.1);
 	/* background-color: #f0628a   ; */
 	/* background-color:#fffdeb   ; */
-	background-color:#256130    ;
+	background-color:#074b53    ;
 }
 /* Navigation */
 
 /* nav {
-	background-color: #08cc7f;
+	background-color: #004a52;
 } */
 
 nav ul {
@@ -41,8 +41,8 @@ nav > ul > li {
 }
 nav ul li a {
 	display: inline-block;
-	/* color: #256130 ; */
-	color: #f9f7ea ;
+	/* color: #074b53 ; */
+	color: #ffffff ;
 	font-size: 15px;
 	font-weight: 600;
 	position: relative;
@@ -68,39 +68,39 @@ nav ul li a:before {
 }
 /* nav ul li a.active:before{
 	opacity: 1;
-	background: #256130 ;
+	background: #074b53 ;
 }
 nav ul li a:hover:before{
 	opacity: 1;
-	background: #256130 ;
+	background: #074b53 ;
 } */
 nav ul li:hover > ul {
 	opacity: 1;
 	visibility: visible;
-	background-color: #256130 ;
+	background-color: #074b53 ;
 }
 nav ul li:hover > ul li {
 	margin-top: 0;
-	/* background-color: #256130 ; */
+	/* background-color: #074b53 ; */
 	/* background-color: ; */
 }
 
 nav ul li:hover,
 nav ul li:active{
-	background-color: #256130 ;
+	background-color: #074b53 ;
 }
 nav ul li a:hover,
 nav ul li a.active {
 	/* color: #f0628a ; */
 	color: white;
 	text-decoration: none;
-	background-color: #256130 ;
+	background-color: #074b53 ;
 }
 
 /* .active a{
 	color: white;
 	text-decoration: none;
-	background-color: #256130 ;
+	background-color: #074b53 ;
 } */
 
 nav ul ul {
@@ -153,7 +153,7 @@ nav ul ul {
 nav ul ul li {
 	padding: 10px 15px;
 	/* background-color: #fff; */
-	background-color: #f9f7ea ;
+	background-color: #ffffff ;
 	border-bottom: 1px solid #ebebeb;
 	margin-top: 20px;
 	position: relative;

@@ -14,7 +14,7 @@
 }
 
 .wpo-about-video-item span {
-    color: #08cc7f;
+    color: #004a52;
 }
 
 .wpo-about-video-area .row {
@@ -43,7 +43,7 @@
     top: -30px;
     width: 108%;
     height: 56%;
-    background: #08cc7f;
+    background: #004a52;
     content: "";
     z-index: -1;
 }

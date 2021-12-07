@@ -1,7 +1,7 @@
 .wpo-header-style-2 .topbar,
 .header-style-3 .topbar {
     /* border-bottom: 1px solid rgba(255, 255, 255, .1); */
-    background-color: #256130  ;
+    background-color: #074b53  ;
 }
 
 .header-style-3 .topbar {
@@ -31,7 +31,7 @@
 .header-style-3 .topbar p {
     font-size: 15px;
     font-size: 1rem;
-    color: #f9f7ea;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -80,16 +80,16 @@
 }
 
 .header-style-3 .topbar .contact-info ul li a {
-    color: #f9f7ea;
+    color: #ffffff;
 }
 
 .wpo-header-style-2 .topbar .contact-info ul li a:hover,
 .header-style-3 .topbar .contact-info ul li a:hover {
-    color: #f9f7ea;
+    color: #ffffff;
 }
 
 .header-style-3 .topbar ul li {
-    color: #f9f7ea;
+    color: #ffffff;
     border-right: 1px solid #dfe2e6;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .header-style-3 .topbar ul .fi:before {
-    color: #f9f7ea;
+    color: #ffffff;
 }
 
 @media (max-width: 991px) {

@@ -88,7 +88,7 @@
 }
 
 .wpo-blog-sidebar .search-widget form button {
-  background: #08cc7f;
+  background: #004a52;
   font-size: 20px;
   font-size: 1.25rem;
   color: #333;
@@ -146,11 +146,11 @@
 }
 
 .wpo-blog-sidebar .category-widget ul a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-sidebar .category-widget ul li:hover:before {
-  background: #08cc7f;
+  background: #004a52;
 }
 
 .wpo-blog-sidebar .recent-post-widget .post {
@@ -200,7 +200,7 @@
 }
 
 .wpo-blog-sidebar .recent-post-widget .post h4 a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-sidebar .recent-post-widget .post .details .date {
@@ -291,7 +291,7 @@
 }
 
 .wpo-blog-sidebar .tag-widget ul li a:hover {
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
 }
 
@@ -346,8 +346,8 @@
 
 .pagination-wrapper .pg-pagination .active a,
 .pagination-wrapper .pg-pagination li a:hover {
-  background: #08cc7f;
-  border-color: #08cc7f;
+  background: #004a52;
+  border-color: #004a52;
   color: #000;
 }
 
@@ -472,11 +472,11 @@
 }
 
 .category-sidebar .category-widget ul a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .category-sidebar .category-widget ul li:hover:before {
-  background: #08cc7f;
+  background: #004a52;
 }
 
 .category-sidebar .tag-widget {
@@ -518,7 +518,7 @@
 }
 
 .category-sidebar .tag-widget ul a:hover {
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
 }
 
@@ -549,7 +549,7 @@
 }
 
 .theme-accordion-s1 .panel-heading a {
-  background: #08cc7f;
+  background: #004a52;
   font-size: 18px;
   font-size: 1.125rem;
   color: #fff;

@@ -1,6 +1,6 @@
 .wpo-site-footer,
 .wpo-site-footer {
-    background: #256130   ;
+    background: #074b53   ;
     position: relative;
     font-size: 15px;
     overflow: hidden;
@@ -151,11 +151,11 @@
 
 .wpo-site-footer .about-widget ul a:hover,
 .wpo-site-footer-2 .about-widget ul a:hover {
-    color: #08cc7f;
+    color: #004a52;
 }
 
 .wpo-site-footer-2 .about-widget ul a {
-    color: #08cc7f;
+    color: #004a52;
 }
 
 .wpo-site-footer .link-widget,
@@ -251,7 +251,7 @@
 .wpo-site-footer-2 .wpo-lower-footer {
     text-align: center;
     position: relative;
-    background: #256130  ;
+    background: #074b53  ;
 }
 
 .wpo-site-footer .wpo-lower-footer .row,

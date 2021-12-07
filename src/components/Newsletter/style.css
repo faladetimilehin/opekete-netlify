@@ -1,6 +1,6 @@
 .wpo-news-letter-section,
 .wpo-news-letter-section-2 {
-    background: #256130  ;
+    background: #074b53  ;
     text-align: center;
     padding: 100px 0;
 }
@@ -92,7 +92,7 @@
 
 .wpo-news-letter-section form>div button,
 .wpo-news-letter-section-2 form>div button {
-    background: #08cc7f;
+    background: #004a52;
     width: 150px;
     height: 45px;
     font-weight: 600;

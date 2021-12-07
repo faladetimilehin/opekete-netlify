@@ -23,7 +23,7 @@
 
 .wpo-case-details-tab .nav-tabs .nav-item.show .nav-link, 
 .wpo-case-details-tab .nav-tabs .nav-link.active{
-  background: #08cc7f!important;
+  background: #004a52!important;
   color: #fff!important;
   outline: none;
   border-radius: 40px;
@@ -81,7 +81,7 @@
 
 .case-bb-text ul li:before {
   content: "";
-  background: #08cc7f;
+  background: #004a52;
   width: 6px;
   height: 6px;
   position: absolute;
@@ -136,7 +136,7 @@
 .wpo-donations-amount input:focus,
 .wpo-donations-details input:focus,
 .wpo-donations-details textarea:focus {
-  border-color: #08cc7f;
+  border-color: #004a52;
 }
 
 .payment-name ul li input {
@@ -266,7 +266,7 @@
 }
 
 .wpo-payment-area .form-style input:focus {
-  border: 1px solid #08cc7f;
+  border: 1px solid #004a52;
 }
 
 .wpo-payment-area .contact-form {

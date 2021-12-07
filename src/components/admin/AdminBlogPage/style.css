@@ -79,7 +79,7 @@
 }
 
 .wpo-blog-single-section .entry-meta li a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-single-section .entry-meta>li:first-child {
@@ -271,7 +271,7 @@
 }
 
 .wpo-blog-single-section .tag-share .tag a:hover {
-  background-color: #08cc7f;
+  background-color: #004a52;
   color: #fff;
 }
 
@@ -290,9 +290,9 @@
 }
 
 .wpo-blog-single-section .tag-share .share a:hover {
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
-  border-color: #08cc7f;
+  border-color: #004a52;
 }
 
 .wpo-blog-single-section .author-box {
@@ -371,7 +371,7 @@
 }
 
 .wpo-blog-single-section .author-box .social-link a:hover {
-  color: #08cc7f;
+  color: #004a52;
 }
 
 .wpo-blog-single-section .more-posts {
@@ -408,7 +408,7 @@
 
 .wpo-blog-single-section .more-posts .previous-post a:hover,
 .wpo-blog-single-section .more-posts .next-post a:hover {
-  background-color: #08cc7f;
+  background-color: #004a52;
   color: #fff;
 }
 
@@ -507,7 +507,7 @@
 
 .wpo-blog-single-section .comments-area .comment-reply-link {
   font-size: 16px;
-  color: #08cc7f;
+  color: #004a52;
   display: inline-block;
   border-radius: 50px;
   display: inline-block;
@@ -577,7 +577,7 @@
 .wpo-blog-single-section .comment-respond form textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #08cc7f;
+  border-color: #004a52;
 }
 
 @media (max-width: 991px) {
@@ -629,7 +629,7 @@
 
 .wpo-blog-single-section .comment-respond .form-submit input {
   max-width: 120px;
-  background: #08cc7f;
+  background: #004a52;
   color: #fff;
   font-weight: 500;
   margin-bottom: 0;
@@ -664,6 +664,6 @@
 }
 
 .author-btn a:hover {
-  background-color: #08cc7f;
+  background-color: #004a52;
   color: #fff;
 }

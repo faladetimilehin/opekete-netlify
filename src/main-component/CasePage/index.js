@@ -11,7 +11,7 @@ const AboutPage =() => {
     return(
         <Fragment>
             <Header/>
-            <PageTitle pageTitle={'Our Causes'} pagesub={'Causes'}/> 
+            <PageTitle pageTitle={'What We Do'} pagesub={'What-We-Do'}/> 
             {/* <Mission subclass={'section-padding'}/> */}
             <Casesection/>
             <Footer/>

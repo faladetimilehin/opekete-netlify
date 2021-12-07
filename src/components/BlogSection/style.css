@@ -38,7 +38,7 @@
     top: 7px;
     width: 10px;
     height: 10px;
-    background: #08cc7f;
+    background: #004a52;
     border-radius: 50%;
     content: "";
     transition: all .3s;
@@ -50,7 +50,7 @@
 }
 
 .wpo-blog-item:hover .wpo-blog-content {
-    background: #08cc7f;
+    background: #004a52;
 }
 
 .wpo-blog-content span {
