@@ -3,7 +3,7 @@ import Header from '../../components/header'
 import PageTitle from '../../components/pagetitle'
 import Mission from '../../components/mission'
 import AboutUs from '../../components/about/aboutus'
-import OurFounder from '../../components/about/ourfounder'
+import FounderInfo from '../../components/about/founderinfo'
 import VedioCta from '../../components/vediocta'
 import Casesection from '../../components/case2'
 import Footer from '../../components/footer'
@@ -11,20 +11,18 @@ import Scrollbar from '../../components/scrollbar'
 import WorldSection from '../../components/world/aboutworldsection';
 
 
-const AboutPage = () => {
+const FounderPage = () => {
     return (
         <Fragment>
             <Header />
-            <PageTitle pageTitle={'About Us '} pagesub={'About'} />
+            <PageTitle pageTitle={'Our Founder'} pagesub={'Founder'} />
             {/* <VedioCta/> */}
-            <AboutUs />
-          <WorldSection/>
-            <OurFounder />
-            <Mission subclass={'section-padding'} />
+            
+            <FounderInfo />
             {/* <Casesection/> */}
             <Footer />
             <Scrollbar />
         </Fragment>
     )
 };
-export default AboutPage;
+export default FounderPage;

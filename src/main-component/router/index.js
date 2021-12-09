@@ -34,6 +34,7 @@ import Profile from "../../components/Profile";
 import BoardUser from "../../components/BoardUser";
 import ApplyPage from "../ApplyPage";
 import ScholarshipPage from "../scholarshipPage";
+import FounderPage from "../FounderPage";
 
 const AllRoute = () => { 
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
@@ -88,6 +89,7 @@ const AllRoute = () => {
             <Route path='/admin-case' component={AdminCasePage}/>
             <Route path='/admin-event' component={AdminEventPage}/>
             <Route path='/apply' component={ApplyPage}/>
+            <Route path='/founderinfo' component={FounderPage}/>
 
 
 
