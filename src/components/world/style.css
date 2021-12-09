@@ -31,14 +31,14 @@
     font-weight: 500;
     line-height: 60px;
     margin: 0;
-    color: #fad2e1;
+    color: #f8bbd0;
 }
 
 .wpo-world-section a {
     display: flex;
     align-items: center;
     padding: 15px 20px;
-    background: #fad2e1;
+    background: #f8bbd0;
     border-radius: 5px;
     color: #004a52 ;
     font-weight: 600;
@@ -102,7 +102,7 @@
 }
 
 .wpo-cta-text .theme-btn {
-    background: #fad2e1;
+    background: #f8bbd0;
     border: 1px solid #fff;
     color: #333;
 }
