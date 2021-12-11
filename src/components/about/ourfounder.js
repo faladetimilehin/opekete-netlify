@@ -13,10 +13,10 @@ const OurFounder = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-md-12 colsm-12">
-                        <div className="wpo-about-img-3">
-                            <img src={abimg} alt="" width="350" />
+                        <div className="wpo-about-img-founder">
+                            <img src={abimg} alt="" />
                         </div>
-                        <span>Mrs. Florence Bamidele Makanjuola nee Familusi (1921 - 2021) </span>
+                        <p className='wpo-about-img-founder-p'> Mrs. Florence Bamidele Makanjuola nee Familusi<br/> (1921 - 2021) </p>
                     </div>
                     <div className="col-lg-7 col-md-12 colsm-12">
                         <div className="wpo-about-text">

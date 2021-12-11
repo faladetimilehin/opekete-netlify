@@ -3,6 +3,7 @@ import './worldsection.css'
 import { Link } from 'react-router-dom'
 import tm1 from '../../images/palmtree.jpeg'
 
+
 const WorldSection = (props) => {
 
     const ClickHandler = () => {
@@ -20,7 +21,7 @@ const WorldSection = (props) => {
                         <div className="col-lg-7 col-md-12 colsm-12">
                             <div className="wpo-world-section-about-us">
                                 <div className ="wpo-world-section-about-us-content">
-                                    <h2>" Òpèkétè ndàgbà, inú adámò ńbàjé! "</h2>
+                                    <h2>“Òpèkétè ndàgbà, inú adámò ńbàjé!”</h2>
                                     <br/>
                                     <br/>
                                     <br/>

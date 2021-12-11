@@ -31,6 +31,15 @@
     right: -34px;
     top: -25px;
 }
+.wpo-about-img-founder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.wpo-about-img-founder-p {
+   text-align: center;
+}
 
 @media(max-width: 1200px) {
 

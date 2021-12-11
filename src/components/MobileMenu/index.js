@@ -18,18 +18,38 @@ const menus = [
 
 {
     id: 3,
-        title: 'Causes',
-        link: '/case',
+        title: 'What We Do',
+        link: '/What-We-Do',
     },
 {
     id: 4,
-        title: 'Event',
-        link: '/event',
+        title: 'Scholarships & Funds',
+        link: '/apply',
+    },
+
+    {
+        id: 7,
+        title: 'Get Involved',
+        link: '/',
+        submenu: [
+            {
+                id: 79,
+                title: 'Make A donation',
+                link: '/donate'
+            },
+            {
+                id: 80,
+                title: 'Become A Volunteer',
+                link: '/volunteer'
+            },
+          
+            
+        ]
     },
 
     // {
     //     id: 7,
-    //     title: 'Pages',
+    //     title: 'Get Involved',
     //     link: '/',
     //     submenu: [
     //         {
@@ -41,16 +61,16 @@ const menus = [
     //     ]
     // },
 
-    {
-        id: 5,
-        title: 'Blog',
-        link: '/blog',
-    },
-    {
-        id: 88,
-        title: 'Contact',
-        link: '/contact',
-    }
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: '/blog',
+    // },
+    // {
+    //     id: 88,
+    //     title: 'Contact',
+    //     link: '/contact',
+    // }
     
     
 ]
