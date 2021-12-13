@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ms1 from '../../images/mission/icon1.png'
 import ms2 from '../../images/mission/icon2.png'
 import ms3 from '../../images/mission/icon3.png'
@@ -6,14 +7,14 @@ import ms4 from '../../images/mission/icon4.png'
 import './style.css'
 
 const Mission = (props) => {
-    return(
+    return (
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span style={{color:"#f8bbd0"}}>What We Do?</span>
-                            <h2 style={{color:"#f8bbd0"}}> Creating Opportunities for Women and Young Girls</h2>
+                            <span style={{ color: "#f8bbd0" }}>What We Do?</span>
+                            <h2 style={{ color: "#f8bbd0" }}> Creating Opportunities for Women and Young Girls</h2>
                         </div>
                     </div>
                 </div>
@@ -22,34 +23,41 @@ const Mission = (props) => {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-5">
-                                    <img src={ms1} alt=""/>
+                                    <img src={ms1} alt="" />
                                 </div>
-                                <div className="wpo-mission-content">
-                                    <h2>Education</h2>
-                                    {/* <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses with aim of improving the knowledge, and skill of women.</p> */}
-                                    <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses </p>
+                                <div className="wpo-mission-content" >
+                                    <Link to="/apply" >
+                                        <h2>Education</h2>
+                                        {/* <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses with aim of improving the knowledge, and skill of women.</p> */}
+                                        <p>Programs aimed at promoting girl-child education, including scholarship awards for STEM courses </p>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-6">
-                                    <img src={ms2} alt=""/>
+                                    <img src={ms2} alt="" />
                                 </div>
                                 <div className="wpo-mission-content">
+                                <Link to="/event-details" >
                                     <h2>Advocacy</h2>
                                     <p>Engage stakeholders to promote policies that encourage female education and self-dependence <br></br> <br></br></p>
+                                    </Link>
                                 </div>
+                             
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-7">
-                                    <img src={ms3} alt=""/>
+                                    <img src={ms3} alt="" />
                                 </div>
                                 <div className="wpo-mission-content">
+                                <Link to="/apply" >
                                     <h2>Empowerment</h2>
                                     <p>Programs and activities that promote female self dependence including vocational training programs and financial literacy </p>
+                              </Link>
                                 </div>
                             </div>
                         </div>

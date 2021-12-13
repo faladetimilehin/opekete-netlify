@@ -27,27 +27,27 @@ const Header = () => {
                     <nav>
                         <ul>
                             {/* <li><NavLink exact activeClassName = "active" to="/home" title="">Home</NavLink></li> */}
-                            <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink></li>
-                            <li><NavLink activeClassName = "active" to="/What-We-Do" title="">What We Do</NavLink>
-                                {/* <ul>
-                                    <li><Link to="/case" title="">Frequently asked questions</Link></li>
-                                    <li><Link to="/case-single" title="">Apply for scholarship</Link></li>
-                                </ul> */}
-                            </li>
-                            <li><NavLink activeClassName = "active" to="apply" title="">Scholarships & Funds</NavLink>
+                            <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink>
+                            <ul>
+                                    <li><Link to="/about" title="">Our Mission</Link></li>
+                                    <li><Link to="/What-We-Do" title="">Our Founder</Link></li>
+                                    <li><Link to="/What-We-Do" title="">What We Do</Link></li>
+                                    <li><Link to="/What-We-Do" title="">Our Story</Link></li>
+                                </ul>
+                                </li>
+                                <li><NavLink activeClassName = "active" to="/event-details" title="">FBM Roundtable</NavLink>
+  
+  </li>
+                            <li><NavLink activeClassName = "active" to="apply" title="">Scholarships </NavLink>
                                 {/* <ul>
                                     <li><Link to="/apply" title="">How To Apply</Link></li>
                                     <li><Link to="/case-single" title="">Frequently Asked Questions</Link></li>
                                 </ul> */}
                             </li>
                          
-                            <li><NavLink activeClassName = "active" to="#" title="">Get Involved</NavLink>
-                                <ul>
-                                    <li><Link to="/volunteer" title="">Become A Volunteer</Link></li>
-                                    <li><Link to="/donate" title="">Make A Donation</Link></li>
-                                    {/* <li><Link to="#" title="">Partner With Us</Link></li> */}
-                                </ul>
-                            </li>
+                            <li><NavLink activeClassName = "active" to="/volunteer" title="">Get Involved</NavLink>  </li>
+                            <li><NavLink activeClassName = "active" to="/donate" title="">Donate</NavLink></li>
+                         
                             {/* <li><Link to="/home" title="">Pages</Link>
                                 <ul>
                                  <li><Link to="/about" title="">About</Link></li>

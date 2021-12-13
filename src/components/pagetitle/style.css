@@ -19,6 +19,46 @@
   content: "";
   z-index: -1;
 }
+.wpo-breadcumb-founder {
+  background: url('../../images/breadcumb/grandma.jpg') no-repeat center top / cover;
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.wpo-breadcumb-founder:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  content: "";
+  z-index: -1;
+}
+.wpo-breadcumb-about {
+  background: url('../../images/palmtree.jpeg') no-repeat center top / cover;
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.wpo-breadcumb-about:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  content: "";
+  z-index: -1;
+}
 
 .wpo-breadcumb-wrap {
   text-align: center;

@@ -1,8 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import ins1 from '../../images/recent-posts/img-1.jpg'
-import ins2 from '../../images/recent-posts/img-2.jpg'
-import ins3 from '../../images/recent-posts/img-3.jpg'
+
 
 
 const SidebarWrap = () => {
@@ -14,7 +12,7 @@ const SidebarWrap = () => {
     return(
         <div className="col col-lg-4 col-12">
             <div className="wpo-blog-sidebar">
-                <div className="widget search-widget">
+                {/* <div className="widget search-widget">
                     <h3>Search Here</h3>
                     <form onSubmit={SubmitHandler}>
                         <div>
@@ -22,8 +20,8 @@ const SidebarWrap = () => {
                             <button type="submit"><i className="ti-search"></i></button>
                         </div>
                     </form>
-                </div>
-                <div className="widget recent-post-widget">
+                </div> */}
+                {/* <div className="widget recent-post-widget">
                     <h3>Recent posts</h3>
                     <div className="posts">
                         <div className="post">
@@ -54,17 +52,15 @@ const SidebarWrap = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
-                        <li><Link to="/blog-details">Donations</Link></li>
-                        <li><Link to="/blog-details">Charity</Link></li>
-                        <li><Link to="/blog-details">Help</Link></li>
-                        <li><Link to="/blog-details">Non Profit</Link></li>
-                        <li><Link to="/blog-details">Poor People</Link></li>
-                        <li><Link to="/blog-details">Helping Hand</Link></li>
-                        <li><Link to="/blog-details">Video</Link></li>
+                    <li><Link to="/donate">Donations</Link></li>
+                        <li><Link to="/donate">Charity</Link></li>
+                        <li><Link to="/founderinfo">Our Founder</Link></li>
+                        <li><Link to="/donate">Non Profit</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
                     </ul>
                 </div>
             </div>

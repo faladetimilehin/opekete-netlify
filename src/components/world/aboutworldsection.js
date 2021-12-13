@@ -1,6 +1,5 @@
 import React from 'react'
 import './worldsection.css'
-import { Link } from 'react-router-dom'
 import tm1 from '../../images/palmtree.jpeg'
 
 
@@ -21,12 +20,17 @@ const WorldSection = (props) => {
                         <div className="col-lg-7 col-md-12 colsm-12">
                             <div className="wpo-world-section-about-us">
                                 <div className ="wpo-world-section-about-us-content">
+                       
+                                <span style={{color: "#f8bbd0"}}>Our Story</span>
+  
                                     <h2>“Òpèkétè ndàgbà, inú adámò ńbàjé!”</h2>
                                     <br/>
                                     <br/>
                                     <br/>
                                     <br/>
-                                    <p>Opekete is a palm tree popularly found in Yorubaland with a poignant proverb associated with it <em>‘Òpèkétè ndàgbà, inú adámò ńbàjé!’</em>. </p>  <p> It literally means <em>“as the young palm tree grows and it’s fronds are out of reach, the fronds-cutter is embittered”. </em>  </p>
+                                    <p>Opekete is a palm tree popularly found in Yorubaland with a poignant proverb associated with it <em>‘Òpèkétè ndàgbà, inú adámò ńbàjé!’</em>. </p>  <p> It literally means <em>“as the young palm tree grows and it’s fronds are out of reach, the fronds-cutter is embittered”. </em> 
+                                    <br/>This name was very dear to our founder read her story below </p>
+                            
                                 </div>
 
                             </div>

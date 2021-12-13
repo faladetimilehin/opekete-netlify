@@ -9,6 +9,7 @@ import TeamSection from '../../components/team'
 import EventSection from '../../components/event'
 import CtaSection from '../../components/cta'
 import WorldSection from '../../components/world'
+import Highlights from '../../components/Highlight/index'
 import BlogSection from '../../components/BlogSection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -24,6 +25,8 @@ const HomePage =() => {
             {/* <CaseSlide/>
             <CounterSection/> */}
             {/* <TeamSection/> */}
+        
+            <Highlights/>
             <WorldSection/>
             {/* <EventSection/> */}
             {/* <CtaSection/> */}

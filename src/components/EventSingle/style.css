@@ -12,12 +12,12 @@
 }
 
 .wpo-event-details-tab .nav {
-  justify-content: space-between;
+  justify-content:flex-start;
   display: flex;
 }
 
 .wpo-event-details-tab .nav-tabs>li {
-  flex-basis: 33.33%;
+  flex-basis: 50.00%;
 }
 
 .wpo-event-details-wrap {

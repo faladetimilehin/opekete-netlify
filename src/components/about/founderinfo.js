@@ -24,7 +24,7 @@ const FounderInfo = (props) => {
                                 <span>Our Founder</span>
                                 <h4>Inspired by a passion for female education and empowerment </h4>
                             </div>
-                            <p>
+                            <p >
                                 Mrs. Florence Bamidele Makanjuola nee Familusi (1921 - 2021) was a teacher, nurse, great grandmother and beloved matriarch.
                                 A pioneer of her generation with educational opportunity, she lived a long, eventful, and accomplished life, passing away  just shy of her 100th birthday.
 

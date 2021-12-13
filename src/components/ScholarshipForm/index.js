@@ -4,7 +4,7 @@ import axios from 'axios'
 import TeamSection from '../team'
 import './style.css'
 
-import vimg from '../../images/scholarship.webp'
+import vimg from '../../images/scholarship.jpg'
 import { toast } from "react-toastify";
 
 const ScholarshipForm = () => {
@@ -17,19 +17,16 @@ const ScholarshipForm = () => {
 // const ACCESS_TOKEN = 'ya29.a0ARrdaM9iXvQRNrcGV2oiM3ITFJR06SJYTxZ9rT3-xRchdQQs1QWEp6FwoOfjtQiH-App2ST8-nBmxOoTXi9Cmn9qqZI2qaSIR_9TSE5n8vL89zqssxmNPyID-YRd_iUFWGS3UG8jdA5KU6G3KtNMoF2b0cey';
 
 
+
     const SubmitHandler = async(e) => {
-
+        e.preventDefault();
         const scholarshipData = { Name:name, Email: email ,PhoneNumber: phoneNumber,File: file ,Note: note}
-
 
         axios.post(`https://sheet.best/api/sheets/8701b246-f23c-47f1-9174-5c6219f22a72`, scholarshipData)
      //   axios.post(`https://docs.google.com/spreadsheets/d/1WRwtwAyURLZnhNPAJTUDuWz9PkqvHIcrqyW1DkS93no/edit#gid=0`, scholarshipData)
         .then(response => {
             toast.success("Thanks for applying we would get back to you soon!!")
         })
-
-   
-        e.preventDefault();
     }
 
 

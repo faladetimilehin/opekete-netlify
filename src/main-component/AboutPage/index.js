@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitle from '../../components/pagetitle/about'
 import Mission from '../../components/mission'
 import AboutUs from '../../components/about/aboutus'
 import OurFounder from '../../components/about/ourfounder'

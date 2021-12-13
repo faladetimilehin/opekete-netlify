@@ -10,7 +10,7 @@ const EventPageSingle =() => {
     return(
         <Fragment>
             <Header/>
-            <PageTitle pageTitle={'Single Event'} pagesub={'Education for All Children'}/> 
+            <PageTitle pageTitle={'FBM Roundtable'} pagesub={'FBM Roundtable'}/> 
             <EventSingle/>
             <Footer/>
             <Scrollbar/>

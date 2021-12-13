@@ -16,9 +16,9 @@ const About = (props) => {
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
                                 <span>About Us</span>
-                                <h2>Empowering Females Through Education </h2>
+                                <h2>A World of Opportunity For Women and Girls </h2>
                             </div>
-                            <p>Opekete Foundation seeks to create a world where females have the opportunity to learn and prosper regardless of their economic status.<br/><br/>
+                            <p>Opekete Foundation seeks to create a world of opportunities for women and girls to prosper regardless of their starting point in life.<br/><br/>
                             We believe that with access to education, financial services, and skills training, all women can be empowered for success.<br/><br/>
                                 Our focus is empowering young girls in Nigeria to a better life through education and financial literacy. </p>
                             <div className="btns">

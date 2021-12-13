@@ -9,70 +9,61 @@ const menus = [
         title: 'Home',
         link: '/home',
     },
-
     {
         id: 2,
-        title: 'About',
+        title: 'About Us',
         link: '/about',
-    },
-
-{
-    id: 3,
-        title: 'What We Do',
-        link: '/What-We-Do',
-    },
-{
-    id: 4,
-        title: 'Scholarships & Funds',
-        link: '/apply',
-    },
-
-    {
-        id: 7,
-        title: 'Get Involved',
-        link: '/',
         submenu: [
             {
                 id: 79,
-                title: 'Make A donation',
+                title: 'Our Mission',
                 link: '/donate'
             },
             {
                 id: 80,
-                title: 'Become A Volunteer',
+                title: 'Our Founder',
                 link: '/volunteer'
             },
           
-            
+            {
+                id: 81,
+                title: 'What We Do',
+                link: '/donate'
+            },
+            {
+                id: 82,
+                title: 'Our Story',
+                link: '/volunteer'
+            },           
         ]
     },
+{
+    id: 3,
+        title: 'FBM Roundtable',
+        link: '/event-details',
+    },
+{
+    id: 4,
+        title: 'Scholarships',
+        link: '/apply',
+    },
 
-    // {
-    //     id: 7,
-    //     title: 'Get Involved',
-    //     link: '/',
-    //     submenu: [
-    //         {
-    //             id: 79,
-    //             title: 'Error 404',
-    //             link: '/404'
-    //         },
-            
-    //     ]
-    // },
+{
+    id: 5,
+        title: 'Scholarships',
+        link: '/apply',
+    },
+    {
+        id: 6,
+            title: 'Donate',
+            link: '/donate',
+        },
+    {
+        id: 7,
+        title: 'Get Involved',
+        link: '/volunteer',
+    },
 
-    // {
-    //     id: 5,
-    //     title: 'Blog',
-    //     link: '/blog',
-    // },
-    // {
-    //     id: 88,
-    //     title: 'Contact',
-    //     link: '/contact',
-    // }
-    
-    
 ]
 
 

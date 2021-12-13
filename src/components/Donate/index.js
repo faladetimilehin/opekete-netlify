@@ -22,8 +22,8 @@ const Donate = (props) => {
     publicKey,
     text: "Donate Now",
         onSuccess: () =>
-        toast.success("Thanks for doing business with us! Come back soon!!"),
-        onClose: () => toast.error("Wait! Don't leave :("),
+        toast.success("Thank you for your donation!!"),
+        onClose: () => toast.error("Help donate"),
       }
     const SubmitHandler = (e) =>{
         e.preventDefault()
