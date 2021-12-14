@@ -16,23 +16,23 @@ const Header = () => {
         {/* <HeaderTopbar/> */}
         <div className = "container">
             <div className="header-content">
-            <div className="row">
-                <div className="col-lg-3 col-md-6 col-sm   -6 col-6">
+            <div className="row h-reponse" style={{justifyContent:"space-between",}}>
+                <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div className="logo">
                         {/* <h1 style={{ color: 'pink', fontWeight: 'bold' }}>Opeteke</h1> */}
                         <Link  to="/home" title=""><img src={Logo} alt=""/> </Link>
                     </div>
                 </div>
-                <div className="col-lg-8 d-lg-block d-none">
+                <div className="col-lg-8 d-lg-block  d-none">
                     <nav>
                         <ul>
                             {/* <li><NavLink exact activeClassName = "active" to="/home" title="">Home</NavLink></li> */}
                             <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink>
                             <ul>
                                     <li><Link to="/What-We-Do" title="">Our Mission</Link></li>
-                                    <li><Link to="/What-We-Do" title="">Our Founder</Link></li>
+                                    <li><Link to="/founderinfo" title="">Our Founder</Link></li>
                                     {/* <li><Link to="/What-We-Do" title="">What We Do</Link></li> */}
-                                    <li><Link to="/What-We-Do" title="">Our Story</Link></li>
+                                    {/* <li><Link to="/What-We-Do" title="">Our Story</Link></li> */}
                                     <li><Link to="/What-We-Do" title="">Our Trustees</Link></li>
                                 </ul>
                                 </li>
@@ -95,7 +95,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className="col-md-2 col-sm-2 col-2">
+                <div className="col-md-3 col-sm-3 col-3">
                     <MobileMenu/>
                 </div>
             </div>

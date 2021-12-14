@@ -9,7 +9,7 @@ const WorldSection = (props) => {
         window.scrollTo(10, 0);
     }
     return (
-        <div className="wpo-blog-area section-padding">
+        <div className="wpo-blog-area">
             {/* <div className={`wpo-world-area ${props.worldclass}`}> */}
             <div className="about-us-background">
                 <div className="container">

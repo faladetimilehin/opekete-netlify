@@ -1,12 +1,21 @@
+.highlight-container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
 .container{
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .w-full {
   width: 100%;
 }
 
-.row {
+.row-highlight> .row{
+  /* background-color: red; */
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -29,10 +38,16 @@
   width: 40%;
   height: auto;
   padding: 1rem;
+  /* border-radius: 20px; */
 }
   
+.row-item-media img{
+
+  width: 80%;
+  border-radius: 50%;
+}
   @media screen and (max-width: 600px) {
-    .row {
+    .row-highlight> .row {
       flex-direction: column;
       margin: 0 !important;
     }
