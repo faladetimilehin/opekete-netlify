@@ -682,17 +682,26 @@ hero-style3
     border: 1px solid #004a52;
 }
 
-.hero-style-2 .left-vec {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 920px;
-    height: 100vh;
-    /* background-color: red; */
-    z-index: -1;
+.left-vec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%
 }
 
+.left-vec > .row {
+    height: 90%;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.slide h2{
+    font-size: 55px;
+}
+ 
 .hero-style-2 .right-vec {
     position: absolute;
     right: 0px;

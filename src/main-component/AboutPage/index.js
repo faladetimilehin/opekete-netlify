@@ -20,7 +20,7 @@ const AboutPage = () => {
             <AboutUs />
           <WorldSection/>
             <OurFounder />
-            <Mission subclass={'section-padding'} />
+    
             {/* <Casesection/> */}
             <Footer />
             <Scrollbar />

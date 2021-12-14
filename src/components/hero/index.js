@@ -15,21 +15,14 @@ const Hero = (props) => {
                 {
                     windowWidth >= 1024 && (
                         <div className="left-vec col col-lg-6 col-sm-12 col-m-12" >
-                        <div className="row" style={{overflow :"visible", 
-                        display:"flex",
-                        flexDirection: 'column',
-                        justifyContent:'center'
-                        }}>
-                            <div className="" tyle={{overflow :"visible", 
-                        display:"flex",
-                        flexDirection: 'column !important',
-                        }} > 
+                        <div className="row">
+                            <div className=""  > 
                                 <div className="slide-title">
                                     {/* <h2> Female Education and Empowerment<span>Education</span></h2> */}
                                     <h2>Empowering <br />The Next Generation <br />Of Women And Girls</h2>
                                 </div>
                                 <div className="slide-subtitle">
-                                    <p>Promoting self-dependence amongst females through education  advocacy, and empowerment</p>
+                                    <p>Promoting self-dependence amongst females through <br /> education advocacy, and empowerment</p>
                                     {/* <p>You Can Satisfied Yourself By Helping.</p> */}
                                 </div>
                                 <div className="btns">

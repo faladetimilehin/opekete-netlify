@@ -29,10 +29,11 @@ const Header = () => {
                             {/* <li><NavLink exact activeClassName = "active" to="/home" title="">Home</NavLink></li> */}
                             <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink>
                             <ul>
-                                    <li><Link to="/about" title="">Our Mission</Link></li>
+                                    <li><Link to="/What-We-Do" title="">Our Mission</Link></li>
                                     <li><Link to="/What-We-Do" title="">Our Founder</Link></li>
-                                    <li><Link to="/What-We-Do" title="">What We Do</Link></li>
+                                    {/* <li><Link to="/What-We-Do" title="">What We Do</Link></li> */}
                                     <li><Link to="/What-We-Do" title="">Our Story</Link></li>
+                                    <li><Link to="/What-We-Do" title="">Our Trustees</Link></li>
                                 </ul>
                                 </li>
                                 <li><NavLink activeClassName = "active" to="/event-details" title="">FBM Roundtable</NavLink>
