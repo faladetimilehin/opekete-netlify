@@ -30,9 +30,9 @@ const Header = () => {
                             <li><NavLink activeClassName = "active"  to="/about" title="">About Us</NavLink>
                             <ul>
                                     <li><Link to="/What-We-Do" title="">Our Mission</Link></li>
-                                    <li><Link to="/What-We-Do" title="">Our Founder</Link></li>
+                                    <li><Link to="/founderinfo" title="">Our Founder</Link></li>
                                     {/* <li><Link to="/What-We-Do" title="">What We Do</Link></li> */}
-                                    <li><Link to="/What-We-Do" title="">Our Story</Link></li>
+                                    {/* <li><Link to="/What-We-Do" title="">Our Story</Link></li> */}
                                     <li><Link to="/What-We-Do" title="">Our Trustees</Link></li>
                                 </ul>
                                 </li>
