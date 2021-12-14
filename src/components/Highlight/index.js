@@ -3,12 +3,12 @@ import abimg from '../../images/founderinfo1.jpeg';
 import abimg1 from '../../images/scholarship.jpeg';
 import abimg2 from '../../images/fbm.jpeg';
 
-import './style.css'
+import './Highlight.css'
 
 const index = () => {
     return (
-        <div className='container w-full'>
-            <div className='row'>
+        <div className='container-h w-full'>
+            <div className='row-h'>
                 <div className='row-item-media'>
                     <img src={abimg} alt="" />
                 </div>
@@ -21,7 +21,7 @@ const index = () => {
                     <a href="/founderinfo" style={{color:'#f0628a'}}> <span>Learn more</span> </a>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row-h'>
                 <div className='row-item'>
                 <img src={abimg2} alt="" />
                 <h2>Event </h2>
@@ -33,7 +33,7 @@ const index = () => {
                 </div>
             </div>
             
-            <div className='row'>
+            <div className='row-h'>
                 <div className='row-item-media'>
                     <img src={abimg1} alt="" />
                 </div>

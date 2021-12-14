@@ -91,7 +91,7 @@ export default class MobileMenu extends Component {
         const { isMenuShow, isOpen } = this.state;
 
         return (
-            <div>
+            <div  style={{width:'100%'}}>
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
                     {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
 

@@ -22,9 +22,7 @@
     left: 0;
 }
 .showmenu {
-    position: absolute;
-    right: -130px;
-    top: 25%    ;
+    text-align: right;
     z-index: 999;
     cursor: pointer;
 }
@@ -88,10 +86,16 @@
         text-align: center;
         background: #004a52;
         line-height: 50px;
+        margin-top: 22px;
         border-radius: 5px;
+
+        align-items: flex-end;
+        align-content:flex-end;
+        align-self: flex-end;
+
     }
     .mobileMenu{
-        display: block;
+        display: flex;
     }
 }
 
