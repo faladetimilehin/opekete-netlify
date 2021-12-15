@@ -64,7 +64,7 @@ const EventSingle = (props) => {
                                                 className={classnames({ active: activeTab === '2' })}
                                                 onClick={() => { toggle('2'); }}
                                             >
-                                               Register 
+                                               Participate 
                                             </NavLink>
                                         </NavItem>
                                     </Nav>

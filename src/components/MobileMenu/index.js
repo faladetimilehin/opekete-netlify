@@ -15,26 +15,22 @@ const menus = [
         link: '/about',
         submenu: [
             {
-                id: 79,
-                title: 'Our Mission',
-                link: '/donate'
-            },
+                id: 82,
+                title: 'Our Story',
+                link: '/about'
+            },  
             {
                 id: 80,
                 title: 'Our Founder',
-                link: '/volunteer'
+                link: '/founderinfo'
             },
           
             {
                 id: 81,
-                title: 'What We Do',
-                link: '/donate'
+                title: 'Our Trustees',
+                link: '/What-We-Do'
             },
-            {
-                id: 82,
-                title: 'Our Story',
-                link: '/volunteer'
-            },           
+                    
         ]
     },
 {
