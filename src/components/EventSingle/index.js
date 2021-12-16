@@ -33,11 +33,28 @@ const EventSingle = (props) => {
                                     <span>18</span>
                                     <span>Dec</span>
                                 </div>
+
+
+                                
                             </div>
+
+                            <div className="row">
+                                    <div className="event-details col-12" style={{display:"flex", flexDirection:"left",width:"100%", backgroundColor:"white", justifyContent:"center", margin:"10px", width:"100%"}} >
+                                    <div className='btns'>
+                                        <a className='theme-btn' >Join Now</a>
+                                    </div>
+                                    </div>
+
+                            </div>
+
+
                             <div className="wpo-event-details-text">
-                                <h2>Enduring Legacy </h2>
-                                <p>The Opekete Foundation was founded by FBM as a platform to formalize her lifelong support for the education of indigent girls and other female empowerment and philanthropic activities. The Foundation was so named in honour of her father Gilbert Familusi aka Opekete. Opekete is a palm tree popularly found in Yorubaland with a poignant proverb associated with it ‘Òpèkétè ndàgbà, inú adámò ńbàjé!’. The Florence Fund is an initiative of the Foundation committed to raising N100 million to provide scholarships
-                                    to promising indigent girls across Nigeria studying in the fields of teaching (STEM) and nursing.</p>
+                                <h2> </h2>
+                                {/* <p>The Opekete Foundation was founded by FBM as a platform to formalize her lifelong support for the education of indigent girls and other female empowerment and philanthropic activities. The Foundation was so named in honour of her father Gilbert Familusi aka Opekete. Opekete is a palm tree popularly found in Yorubaland with a poignant proverb associated with it ‘Òpèkétè ndàgbà, inú adámò ńbàjé!’. The Florence Fund is an initiative of the Foundation committed to raising N100 million to provide scholarships
+                                    to promising indigent girls across Nigeria studying in the fields of teaching (STEM) and nursing.</p> */}
+                                    <p>
+                                        A key advocacy initiative of the Opekete Foundation, the FBM Roundtable will raise awareness and stimulate public discourse about the urgent need to educate girls, spotlighting the significant social and economic benefits that accrue when we invest in women. It will be moderated by Ms Ronke Onadeko and will feature Mr Chinenye Mba-Uzoukwu, Ms Nike Akerele-De Souza, Dr Mairo Mandara and Dr Ola Brown as distinguished speakers.
+                                    </p>
                             </div>
                             <div className="wpo-event-details-wrap">
                                 <div className="wpo-event-details-tab">

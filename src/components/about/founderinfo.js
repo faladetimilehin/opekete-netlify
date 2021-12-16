@@ -22,7 +22,7 @@ const FounderInfo = (props) => {
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
                                 <span>Our Founder</span>
-                                <h4>Inspired by a passion for female education and empowerment </h4>
+                                <h4>Inspired By A Passion For Female Education & Empowerment </h4>
                             </div>
                             <p >
                                 Mrs. Florence Bamidele Makanjuola nee Familusi (1921 - 2021) was a teacher, nurse, great grandmother and beloved matriarch.

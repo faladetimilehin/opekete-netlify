@@ -9,7 +9,7 @@ import './style.css'
 const Mission = (props) => {
     return (
         <div className={`wpo-mission-area ${props.subclass}`}>
-            <div className="container">
+            <div className="container section-padding">
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">

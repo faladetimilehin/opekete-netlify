@@ -27,10 +27,9 @@ const index = () => {
             </a>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="row-item">
             <img src={abimg2} alt="" />
-            {/* <h2>FBM Roundtable </h2> */}
             <p>
             Bieannal Round table to raise awareness and stimulate public discourse about the state of female education 
             </p>
@@ -42,12 +41,9 @@ const index = () => {
           <div className="row-item-media">
             <img src={abimg2} alt="" />
           </div>
-        </div>
+        </div> */}
 
         <div className="row">
-          <div className="row-item-media">
-            <img src={abimg1} alt="" />
-          </div>
           <div className="row-item">
             <img src={abimg1} alt="" />
             {/* <h2>Florence Fund</h2> */}
@@ -61,6 +57,9 @@ const index = () => {
               {" "}
               <p><span style={{textDecoration:"underline"}}>Learn more about scholarships</span>{" "}</p>
             </a>
+          </div>
+          <div className="row-item-media">
+            <img src={abimg1} alt="" />
           </div>
         </div>
       </div>

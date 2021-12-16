@@ -10,7 +10,7 @@ const ApplyPage =() => {
     return(
         <Fragment>
             <Header/>
-            <PageTitle pageTitle={'FBM Scholarship for young women'} pagesub={'How to apply'}/> 
+            <PageTitle pageTitle={'FBM Scholarship For Young Women'} pagesub={'How to apply'}/> 
             <Applypage/>
             <Footer/>
             <Scrollbar/>

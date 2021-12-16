@@ -23,7 +23,7 @@ const Header = () => {
                         <Link  to="/home" title=""><img src={Logo} alt=""/> </Link>
                     </div>
                 </div>
-                <div className="col-lg-8 d-lg-block  d-none">
+                <div className="col-lg-9 d-lg-block  d-none">
                     <nav>
                         <ul>
                             {/* <li><NavLink exact activeClassName = "active" to="/home" title="">Home</NavLink></li> */}
@@ -31,7 +31,6 @@ const Header = () => {
                             <ul>
                                     <li><Link to="/about" title="">Our Story</Link></li>
                                     <li><Link to="/founderinfo" title="">Our Founder</Link></li>
-                                    <li><a href="http://www.opeketefoundation.org/" title="">Get Inspired</a></li>
                                     {/* <li><Link to="/What-We-Do" title="">Our Story</Link></li> */}
                                     <li><Link to="/What-We-Do" title="">Our Trustees</Link></li>
                                 </ul>
@@ -45,7 +44,7 @@ const Header = () => {
                                     <li><Link to="/case-single" title="">Frequently Asked Questions</Link></li>
                                 </ul> */}
                             </li>
-                         
+                            <li><a href="http://www.florencebmakanjuola.com/" title="">Get Inspired</a></li>
                             <li><NavLink activeClassName = "active" to="/volunteer" title="">Get Involved</NavLink>  </li>
                             <li><NavLink activeClassName = "active" to="/donate" title="">Donate</NavLink></li>
                          

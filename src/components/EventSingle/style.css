@@ -24,6 +24,11 @@
   border: 1px solid #ebebeb;
 }
 
+.event-details>.theme.btn{
+  color: white !important;
+}
+
+
 .wpo-event-details-tab .nav li a {
   display: block;
   text-align: center;

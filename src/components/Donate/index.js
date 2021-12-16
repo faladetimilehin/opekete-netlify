@@ -35,37 +35,37 @@ const Donate = (props) => {
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
                         <div className="wpo-donate-header">
-                            <h2>Help us Empower Girls</h2>
+                            <h2>Help us Empower Girls !</h2>
                         </div>
                         <form onSubmit={SubmitHandler} action="#">
-                            <div className="wpo-donations-amount">
+                            <div className="wpo-donations-amount" style={{border: "0px solid #084b53"}}>
                                 <h2>Your Donation</h2>
-                                <input type="text" className="form-control" name="text" id="amount" placeholder="Enter Donation Amount"
+                                <input style={{border: "1px solid #084b53"}} type="text" className="form-control" name="text" id="amount" placeholder="Enter Donation Amount"
                                         onChange={(e) => setAmount(e.target.value)}
                                 />
                             </div>
-                            <div className="wpo-donations-details">
+                            <div className="wpo-donations-details" style={{padding: "30px", marginbottom: "40px", padding :"0px" }} style={{border: "0px solid #084b53"}}>
                                 <h2>Details</h2>
                                 <div className="row">
-                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
+                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group" style={{}}>
                                         <input type="text" className="form-control" name="name" id="name" placeholder="First Name"
-                                                onChange={(e) => setName(e.target.value)}/>
+                                                onChange={(e) => setName(e.target.value)} style={{border: "1px solid #084b53"}}/>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                         <input type="text" className="form-control" name="name" id="phone" placeholder="Phone"
-                                                onChange={(e) => setPhone(e.target.value)}/>
+                                                onChange={(e) => setPhone(e.target.value)} style={{border: "1px solid #084b53"}}/>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group clearfix">
                                         <input type="email" className="form-control" name="email" id="email" placeholder="Email"
-                                                onChange={(e) => setEmail(e.target.value)}/>
+                                                onChange={(e) => setEmail(e.target.value)} style={{border: "1px solid #084b53"}} />
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                         <input type="text" className="form-control" name="Adress" id="Address" placeholder="Adress"
-                                                onChange={(e) => setAddress(e.target.value)}/>
+                                                onChange={(e) => setAddress(e.target.value)} style={{border: "1px solid #084b53"}} />
                                     </div>
                                     <div className="col-lg-12 col-12 form-group">
                                         <textarea className="form-control" name="note" id="note" placeholder="Message"
-                                                onChange={(e) => setMessage(e.target.value)}></textarea>
+                                                onChange={(e) => setMessage(e.target.value)} style={{border: "1px solid #084b53"}}></textarea>
                                     </div>
                                 </div>
                             </div>
