@@ -94,8 +94,7 @@ const EventSingle = (props) => {
                                             </p>
                                             <ul>
                                                 <li>	The First Biennial FBM Roundtable on Promoting Female Education </li>
-                                                <li>Launch & Fundraiser for the Florence Fund*, an initiative of the Opekete Foundation </li>
-                                                <li>	Pre-launch of an Autobiography of FBM’s Inspiring Life of Service </li>
+                                           
                                           
                                             </ul>
                                         </TabPane>

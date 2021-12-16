@@ -16,9 +16,8 @@ const index = () => {
           <div className="row-item">
             <img src={abimg} alt="" />
             {/* <h2>Our Founders Story </h2> */}
-            <p>A pioneer of her generation with educational opportunity,Mrs. Florence Bamidele Makanjuola nee Familusi (1921 - 2021) 
-                created the Opekete Foundation was the brainchild of Florence, created as a platform to formalize her lifelong support for the education of indigent girls in Imesi-Ile and her other
-              female empowerment and philanthropic activities.
+            <p> Created as a platform to formalize her lifelong support for the education of indigent girls in Imesi-Ile and her other philanthropic activities. The Opekete Foundation is the brainchild of <em>Mrs. Florence Bamidele (1921 - 2021)</em>, a pioneer of her generation with educational opportunity 
+                Opekete Foundation was the brainchild of Florence, 
             </p>
             <a href="/founderinfo" style={{ color: "#f0628a" }}>
               {" "}
@@ -48,14 +47,14 @@ const index = () => {
             <img src={abimg1} alt="" />
             {/* <h2>Florence Fund</h2> */}
             <p>
-              The Florence Fund Scholarship, an initiative of the foundation to
+              The Florence Fund Scholarship, is an initiative of the foundation to
               provide scholarships for promising indigent girls across Nigeria
               studying in the fields of teaching (STEM) and nursing
             </p>
 
             <a href="/apply" style={{ color: "#f0628a" }}>
               {" "}
-              <p><span style={{textDecoration:"underline"}}>Learn more about scholarships</span>{" "}</p>
+              <p><span style={{textDecoration:"underline"}}>Learn more about our scholarship fund</span>{" "}</p>
             </a>
           </div>
           <div className="row-item-media">
