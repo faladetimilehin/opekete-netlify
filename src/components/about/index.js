@@ -23,14 +23,14 @@ const About = (props) => {
                                 Our focus is empowering young girls in Nigeria to a better life through education and financial literacy. </p>
                             <div className="btns">
                                 <a href="/about" className="theme-btn" onClick={ClickHandler}>Learn More</a>
-                                <ul>
-                                    {/* <li className="video-holder">
+                                {/* <ul>
+                                    <li className="video-holder">
                                         <VideoModal />
                                     </li>
                                     <li className="video-text">
                                         Watch Our Video
-                                    </li> */}
-                                </ul>
+                                    </li>
+                                </ul> */}
                             </div>
                         </div>
                     </div>

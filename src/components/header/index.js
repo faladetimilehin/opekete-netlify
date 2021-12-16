@@ -31,7 +31,7 @@ const Header = () => {
                             <ul>
                                     <li><Link to="/about" title="">Our Story</Link></li>
                                     <li><Link to="/founderinfo" title="">Our Founder</Link></li>
-                                    {/* <li><Link to="/What-We-Do" title="">What We Do</Link></li> */}
+                                    <li><a href="http://www.opeketefoundation.org/" title="">Get Inspired</a></li>
                                     {/* <li><Link to="/What-We-Do" title="">Our Story</Link></li> */}
                                     <li><Link to="/What-We-Do" title="">Our Trustees</Link></li>
                                 </ul>

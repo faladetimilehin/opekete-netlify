@@ -35,7 +35,7 @@ const Donate = (props) => {
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
                         <div className="wpo-donate-header">
-                            <h2>Make a Donation</h2>
+                            <h2>Help us Empower Girls</h2>
                         </div>
                         <form onSubmit={SubmitHandler} action="#">
                             <div className="wpo-donations-amount">

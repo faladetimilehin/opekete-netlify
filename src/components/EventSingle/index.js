@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import SidebarWrap from '../SidebarWrap'
-import simg from '../../images/roundtable.jpg'
+import simg from '../../images/roundatable.jpeg'
 
 
 

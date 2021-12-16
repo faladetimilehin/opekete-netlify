@@ -20,7 +20,7 @@
   z-index: -1;
 }
 .wpo-breadcumb-founder {
-  background: url('../../images/breadcumb/grandma.jpg') no-repeat center top / cover;
+  background: url('../../images/breadcumb/opeketebackgrond.jpeg') no-repeat center top / cover;
   min-height: 350px;
   position: relative;
   display: flex;
@@ -64,12 +64,11 @@
   text-align: center;
 }
 
+
 @media(max-width: 767px) {
-  .wpo-breadcumb-area {
-      min-height: 250px;
+  .wpo-breadcumb-area, .wpo-breadcumb-founder , .wpo-breadcumb-about{
+      min-height: 150px;
   }
-
-
 }
 
 .wpo-breadcumb-wrap h2 {

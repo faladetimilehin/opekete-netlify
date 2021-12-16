@@ -27,7 +27,7 @@ const Hero = (props) => {
                                 <div> 
                                 <div className="slide-title" >
                                     {/* <h2> Female Education and Empowerment<span>Education</span></h2> */}
-                                    <h2>Empowering <br />The Next Generation <br />Of Women And Girls</h2>
+                                    <h2>Empowering <br />The Next Generation <br />of Female Leaders</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>Promoting self-dependence amongst females through <br /> education advocacy, and empowerment</p>

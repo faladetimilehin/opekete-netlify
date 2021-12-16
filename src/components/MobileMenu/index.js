@@ -43,12 +43,6 @@ const menus = [
         title: 'Scholarships',
         link: '/apply',
     },
-
-{
-    id: 5,
-        title: 'Scholarships',
-        link: '/apply',
-    },
     {
         id: 6,
             title: 'Donate',
