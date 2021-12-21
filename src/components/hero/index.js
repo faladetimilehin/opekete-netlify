@@ -59,7 +59,7 @@ const Hero = (props) => {
                             <div className="col col-lg-6 col-sm-12 col-m-12 slide-caption" > 
                                 <div className="slide-title">
                                    
-                                    <h2>Empowering <br />The Next Generation <br />Of Women And Girls</h2>
+                                    <h2>Empowering <br />The Next Generation <br />of Female Leaders</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>Promoting self-dependence amongst females through education  advocacy, and empowerment</p>

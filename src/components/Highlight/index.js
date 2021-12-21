@@ -16,8 +16,8 @@ const index = () => {
           <div className="row-item">
             <img src={abimg} alt="" />
             {/* <h2>Our Founders Story </h2> */}
-            <p> Created as a platform to formalize her lifelong support for the education of indigent girls in Imesi-Ile and her other philanthropic activities. The Opekete Foundation is the brainchild of <em>Mrs. Florence Bamidele (1921 - 2021)</em>, a pioneer of her generation with educational opportunity 
-                Opekete Foundation was the brainchild of Florence, 
+            <p> Created as a platform to formalize her lifelong support for the education of indigent girls in Imesi-Ile and her other philanthropic activities. The Opekete Foundation is the brainchild of <em>Mrs. Florence Bamidele (1921 - 2021)</em>, a pioneer of her generation with educational opportunity. 
+          
             </p>
             <a href="/founderinfo" style={{ color: "#f0628a" }}>
               {" "}

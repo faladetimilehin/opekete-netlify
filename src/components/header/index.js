@@ -44,7 +44,7 @@ const Header = () => {
                                     <li><Link to="/case-single" title="">Frequently Asked Questions</Link></li>
                                 </ul> */}
                             </li>
-                            <li><a href="http://www.florencebmakanjuola.com/" title="">Get Inspired</a></li>
+                            <li><a href="https://www.florencebmakanjuola.com/" title="">Get Inspired</a></li>
                             <li><NavLink activeClassName = "active" to="/volunteer" title="">Get Involved</NavLink>  </li>
                             <li><NavLink activeClassName = "active" to="/donate" title="">Donate</NavLink></li>
                          

@@ -41,7 +41,7 @@ const EventSingle = (props) => {
                             <div className="row">
                                     <div className="event-details col-12" style={{display:"flex", flexDirection:"left",width:"100%", backgroundColor:"white", justifyContent:"center", margin:"10px", width:"100%"}} >
                                     <div className='btns'>
-                                        <a className='theme-btn' >Join Now</a>
+                                        <a  href="https://linktr.ee/opeketefoundation"  className='theme-btn' >Event Details</a>
                                     </div>
                                     </div>
 

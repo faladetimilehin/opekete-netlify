@@ -78,7 +78,7 @@ const ApplyPage = () => {
                     distinctions and 2 merits during the duration of their
                     studies or an average of 75%
                   </p>
-                  <h2>Apply Now</h2>
+                  {/* <h2>Apply Now</h2>
                   <p>
                     We believe OPEKETE could be the perfect fit for you, If you
                     meet the required qualifications,
@@ -87,7 +87,7 @@ const ApplyPage = () => {
                     </a>{" "}
                     and upload your supporting documents. Application closes on
                     the 15th of August (to allow people to get their results
-                  </p>
+                  </p> */}
 
                   <h2>Selection </h2>
                   <p>

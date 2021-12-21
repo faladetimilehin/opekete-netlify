@@ -11,10 +11,10 @@ const Event = (props) => {
     return (
         <div className="wpo-about-area section-padding">
             <div className="container">
-                <div className="row" style={{ display: "flex", flexDirection: "left", flexFlow: "row", alignItems: "center" }}>
+                <div className="row" >
                     <div className="col-lg-5 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src={abimg} alt="" width='400' height='400' />
+                            <img src={abimg} alt=""  height='400'/>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-12 colsm-12">
@@ -23,7 +23,7 @@ const Event = (props) => {
                                 <span>Event</span>
                                 <h2> Enduring Legacy </h2>
                             </div>
-                            <p>'Enduring Legacy’ is an event created in tribute to our founder, Mrs. Florence Bamidele Makanjuola - FBM’s posthumous 100th birthday It celebrates this momentous milestone spotlighting the key themes in Florence’s life
+                            <p>'Enduring Legacy’ is an event created in tribute to our founder, Mrs. Florence Bamidele Makanjuola - FBM’s posthumous 100th birthday It celebrates this momentous milestone spotlighting the key themes in Florence’s life.
                                 {/* - dedication to God, love and sacrifice for family and humanity, hard-work, diligence, selfless service to the community and triumph against many odds. */}
                             </p>
                             <p>The event will be held under the Chairmanship of Prince Julius Adelusi-Adeluyi, Chairman, MTN Nigeria Foundation with a keynote address delivered by Dr Kayode Fayemi, Governor,
@@ -37,7 +37,7 @@ const Event = (props) => {
                             </p>
 
                             <div className="btns">
-                                <a href="https://linktr.ee/opeketefoundation" className="theme-btn" onClick={ClickHandler}>Click to Attend</a>
+                                <a href="https://linktr.ee/opeketefoundation" className="theme-btn" onClick={ClickHandler}>Event Details</a>
                                 {/* <ul>
                                     <li className="video-holder">
                                         <VideoModal />
