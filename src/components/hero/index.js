@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './style.css'
 import hero1 from '../../images/slider/shape.png'
 import VideoModal from '../ModalVideo'
 import { Link } from 'react-router-dom'
 import useWindowSize from '../../helpers/useWindowSize'
-
+import {Slide} from "@material-ui/core"
 const Hero = (props) => {
+    const [isSlide, seIsSlide] = useState(false)
+    const setSlideIn =()=>{
+    return setTimeout(()=>seIsSlide(true),950);
+    }
+        useEffect(()=>{
+            setSlideIn()
+        })
     const [windowWidth, windowHeight] = useWindowSize();
     console.log({windowWidth, windowHeight});
     return (
@@ -16,10 +23,11 @@ const Hero = (props) => {
                     windowWidth >= 1024 && (
                         <div className="left-vec col col-lg-6 col-sm-12 col-m-12" >
                         <div className="row">
-                            <div className=""  > 
-                                <div className="slide-title">
+                            <Slide in={isSlide} direction="right" >
+                                <div> 
+                                <div className="slide-title" >
                                     {/* <h2> Female Education and Empowerment<span>Education</span></h2> */}
-                                    <h2>Empowering <br />The Next Generation <br />Of Women And Girls</h2>
+                                    <h2>Empowering <br />The Next Generation <br />of Female Leaders</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>Promoting self-dependence amongst females through <br /> education advocacy, and empowerment</p>
@@ -36,7 +44,8 @@ const Hero = (props) => {
                                         </li>
                                     </ul> */}
                                 </div>
-                            </div>                        
+                                </div>
+                            </Slide>                        
 
                         </div>
 
@@ -50,7 +59,7 @@ const Hero = (props) => {
                             <div className="col col-lg-6 col-sm-12 col-m-12 slide-caption" > 
                                 <div className="slide-title">
                                    
-                                    <h2>Empowering <br />The Next Generation <br />Of Women And Girls</h2>
+                                    <h2>Empowering <br />The Next Generation <br />of Female Leaders</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>Promoting self-dependence amongst females through education  advocacy, and empowerment</p>

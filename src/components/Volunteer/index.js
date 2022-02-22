@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 import TeamSection from '../team'
 import './style.css'
 
-import vimg from '../../images/volunteer2.jpeg'
+import vimg from '../../images/10.png'
 
 const Volunteer = () =>  {
 

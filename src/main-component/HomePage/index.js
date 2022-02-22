@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import Hero from '../../components/hero'
 import Mission from '../../components/mission'
+import Event from '../../components/about/event'
 import About from '../../components/about'
 import CaseSlide from '../../components/case'
 import CounterSection from '../../components/counter'
@@ -20,6 +21,8 @@ const HomePage =() => {
         <Fragment>
             <Header/>
             <Hero/>
+            <Event/>
+           
             <Mission/>
             <About/>
             {/* <CaseSlide/>
