@@ -4,7 +4,7 @@ import './style.css'
 
 const Contactpage = () => {
 
-    return(
+    return (
         <section className="wpo-contact-form-map section-padding">
             <div className="container">
                 <div className="row">
@@ -13,7 +13,7 @@ const Contactpage = () => {
                             <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="contact-form">
                                     <h2>Get In Touch</h2>
-                                    <ContactForm/>
+                                    <ContactForm />
                                 </div>
                             </div>
                             <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
@@ -52,7 +52,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div className="info-item">
-                                        <h2>+234 808 724 0516</h2>
+                                        <h2>+234 703 123 3193</h2>
                                         <div className="info-wrap">
                                             <div className="info-icon-3">
                                                 <i className="ti-headphone-alt"></i>
@@ -69,8 +69,8 @@ const Contactpage = () => {
                 </div>
             </div>
         </section>
-     )
-        
+    )
+
 }
 
 export default Contactpage;

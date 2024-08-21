@@ -21,7 +21,7 @@ const Footer = (props) => {
                         <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                {/* <h1 style={{ color: 'pink', fontWeight: 'bold' }}>Opeteke</h1> */}
+                                    {/* <h1 style={{ color: 'pink', fontWeight: 'bold' }}>Opeteke</h1> */}
                                     <img src={Logo} alt="" />
                                 </div>
                                 <p>Promoting Education and Empowerment </p>
@@ -60,7 +60,7 @@ const Footer = (props) => {
                             </div>
                         </div> */}
                         <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div className="widget link-widget" style={{textAlign:'center'}}>
+                            <div className="widget link-widget" style={{ textAlign: 'center' }}>
                                 <div className="widget-title">
                                     <h3 >Frequently visited</h3>
                                 </div>
@@ -81,7 +81,7 @@ const Footer = (props) => {
                                 <div className="contact-ft">
                                     <ul>
                                         <li><i className="fi flaticon-pin"></i>25 Oremeji Street,Lagos, Nigeria</li>
-                                        <li><i className="fi flaticon-call"></i>+234 907 084 4341</li>
+                                        <li><i className="fi flaticon-call"></i>+234 703 123 3193</li>
                                         <li><i className="fi flaticon-envelope"></i>info@opeketefoundation.org</li>
                                     </ul>
                                 </div>
@@ -94,7 +94,8 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright">&copy; 2021 Vartech. All rights reserved</p>
+                            <p className="copyright">&copy; {new Date().getFullYear()} Vartech. All rights reserved.</p>
+
                         </div>
                     </div>
                 </div>
